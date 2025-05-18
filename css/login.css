@@ -9,7 +9,7 @@
 
 /*ELEMENTOS DO HTML*/
 
-body{
+body {
   overflow: hidden;
   background-image: url(./fontes/fundos/fazenda.jpg);
   background-repeat: no-repeat;
@@ -17,19 +17,19 @@ body{
 }
 
 /*confuguração da estrutura do formulário*/
-.login-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 10%;
-    height: 100vh;
-    justify-content: center;
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10%;
+  height: 100vh;
+  justify-content: center;
 }
 
 
 /*confuguração da estrutura dA DIV*/
-.login-header{
+.login-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +39,7 @@ body{
 
 
 
-.login-header h1{
+.login-header h1 {
   font-family: "Luckiest Guy", cursive;
   color: #c0e263;
   font-size: 80px;
@@ -53,7 +53,7 @@ body{
 
 
 /*Parte de animação no parágrafo*/
-.login-header p{
+.login-header p {
   animation: slideInDown;
   animation-duration: 3s;
   animation-timing-function: ease-in-out;
@@ -70,28 +70,27 @@ body{
 
 
 /*Parte de inserir o nickname*/
-.login-input{
+.login-input {
   width: 100%;
-  max-width: 50%;
+  max-width: 60%;
   border: none;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 24px;
   outline: 0;
   border-bottom: 2px solid #fff;
   padding: 5px;
   background-color: transparent;
-  color: #B96034;
-  text-shadow: 4px 4px 6px #b9b9b9;
+  color: #ffffff;
 }
 
 
-.login-input::placeholder{
+.login-input::placeholder {
   color: #fff;
 }
 
 
 /*habilitação do botão*/
-.login-botao{
+.login-botao {
   background-color: transparent;
   width: 100%;
   max-width: 200px;
@@ -104,10 +103,8 @@ body{
 }
 
 
-.login-botao:disabled{
+.login-botao:disabled {
   color: transparent;
   cursor: auto;
   text-shadow: none;
 }
-
-
