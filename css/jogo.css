@@ -200,7 +200,7 @@ h1.fase-atual:hover{
     transform: rotateY(180deg);
     border: 2PX solid #60351A;
     background-color: #D6C2AC;
-    background-size: 70%;
+    background-size: 90%;
     background-repeat: no-repeat;
 
   }
@@ -256,7 +256,7 @@ h1.fase-atual:hover{
   .modal-conteúdo h2 {
     margin-bottom: 10px;
     color: #B96034;
-    font-size: 70px;
+    font-size: 60px;
     animation: bounceInDown;
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
