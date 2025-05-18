@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--BIBLIOTECAS QUE EU ADICIONEI-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!--PÁGINAS DE CSS DO DOCUMENTO-->
+    <link rel = "stylesheet" href = "../css/reset.css">
+
+    <link rel = "stylesheet" href = "../css/jogo.css">
+
+
+    <!--LINK DO JAVASCRIPT DA PÁGINA DE LOGIN-->
+    <script defer src="../js/jogo-dois.js"></script>
+
+    <title>Jogo da Memória</title>
+</head>
+
+<body>
+    <main>
+        <a href="../index.html"><img src="../Ícones/seta.png" class="seta" data-aos="fade-down" data-aos-duration="1800"></a>
+
+        <header data-aos="fade-down" data-aos-duration="1800">
+            <div class="fases">
+                <p>Fases do jogo</p>
+                <br>
+                <br>
+                <div class="h-uns">
+                    <h1><a href="./jogo.html">1</a></h1>
+                    <h1 class="fase-atual">2</h1>
+                </div>
+            </div>
+    
+          <span class="player"></span>
+          <span>Tempo: <span class="timer">00</span></span>
+        </header>
+    
+        <div class="grid" data-aos="zoom-in" data-aos-duration="1800"></div>
+
+      </main>
+
+      <div id="modal-vitória" class="modal">
+        <div class="modal-conteúdo">
+          <h2>PARABÉNS!</h2> 
+          <p>            <span id="modalPlayer"></span>
+            Seu tempo: 
+          <span id="modalTime"></span>
+          </p>
+          <button id="jogar-novamente" onclick="closeModal()">Jogar novamente</button>
+        </div>
+      </div>
+
+
+      <!--SOM DO FUNDO DO JOGO-->
+      <audio id="musica-jogo" loop>
+        <source src="../sons do jogo/música-para-colocar-no-fundo-do-jogo.mp3" type="audio/mp3">
+      </audio>
+
+      <audio id="som-vitoria" src="audio/vitoria.mp3" preload="auto"></audio>
+
+
+    <!--PARTE DE JAVA QUE FAZ A BIBLIOTECA AOS FUNCIONAR-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>

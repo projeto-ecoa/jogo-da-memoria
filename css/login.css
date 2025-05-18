@@ -1,0 +1,113 @@
+/*PARTE DAS FONTES*/
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+.luckiest-guy-regular {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*ELEMENTOS DO HTML*/
+
+body{
+  overflow: hidden;
+  background-image: url(./fontes/fundos/fazenda.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*confuguração da estrutura do formulário*/
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10%;
+    height: 100vh;
+    justify-content: center;
+}
+
+
+/*confuguração da estrutura dA DIV*/
+.login-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+
+.login-header h1{
+  font-family: "Luckiest Guy", cursive;
+  color: #c0e263;
+  font-size: 80px;
+  animation: bounceInDown;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  text-shadow: 4px 4px 6px #757575;
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: #86b30b;
+}
+
+
+/*Parte de animação no parágrafo*/
+.login-header p{
+  animation: slideInDown;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #000;
+  text-shadow: 2px 2px 4px #e0dcdc;
+  -webkit-text-stroke-width: 0.05px;
+  -webkit-text-stroke-color: #688b08;
+
+}
+
+
+
+
+/*Parte de inserir o nickname*/
+.login-input{
+  width: 100%;
+  max-width: 50%;
+  border: none;
+  font-weight: bolder;
+  font-size: 25px;
+  outline: 0;
+  border-bottom: 2px solid #fff;
+  padding: 5px;
+  background-color: transparent;
+  color: #B96034;
+  text-shadow: 4px 4px 6px #b9b9b9;
+}
+
+
+.login-input::placeholder{
+  color: #fff;
+}
+
+
+/*habilitação do botão*/
+.login-botao{
+  background-color: transparent;
+  width: 100%;
+  max-width: 200px;
+  font-size: 25px;
+  margin: 20px;
+  cursor: pointer;
+  color: #c0e263;
+  font-weight: bolder;
+  text-shadow: 4px 4px 6px #757575;
+}
+
+
+.login-botao:disabled{
+  color: transparent;
+  cursor: auto;
+  text-shadow: none;
+}
+
+

@@ -1,0 +1,130 @@
+/*BIBLIOTECA DE FONTES - Fontes normais*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.manrope{
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: "";
+    font-style: normal;
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.outfit{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: "";
+    font-style: normal;
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.josefin-sans{
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: "";
+    font-style: normal;
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+.urbanist{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:"";
+    font-style: normal;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+  .fredoka{
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: "";
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+
+  /*BIBLIOTECA DE FONTES - Fontes especiais*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+.single-day-regular {
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+.merienda{
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: "";
+    font-style: normal;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+  .bangers-regular {
+    font-family: "Bangers", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+  .kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+  .luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+  .gloria-hallelujah-regular {
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+  .paytone-one-regular {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+

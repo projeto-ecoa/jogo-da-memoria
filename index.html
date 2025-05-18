@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--BIBLIOTECAS QUE EU ADICIONEI-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!--PÁGINAS DE CSS DO DOCUMENTO-->
+
+    <link rel = "stylesheet" href = "./css/reset.css">
+
+    <link rel = "stylesheet" href = "./css/login.css">
+
+    <link rel = "stylesheet" href = "./css/fontes/fontes.css">
+
+
+    <!--LINK DO JAVASCRIPT DA PÁGINA DE LOGIN-->
+    <script defer src="./js/login.js"></script>
+
+
+    <title>Jogo da Memória</title>
+</head>
+
+<body>
+
+        <form class="login-form"  data-aos="flip-right" data-aos-duration="1800">
+
+            <div class="login-header">
+                <h1>JOGO DA MEMÓRIA</h1>
+                <p>Nesse jogo você terá que relacionar os agrotóxicos às suas rerspectivas descrições...</p>
+            </div>
+
+            <input type="text" placeholder="Insira o seu nickname" class="login-input" data-aos="zoom-in-up" data-aos-duration="800">
+
+            <button type="submit" class="login-botao" disabled>Hora de jogar!</button>
+
+        </form>
+
+
+
+<!--PARTE DE JAVA QUE FAZ A BIBLIOTECA AOS FUNCIONAR-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
